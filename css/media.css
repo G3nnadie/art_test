@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+  
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+  
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+  
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  .container {max-width: 750px;}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  .container {max-width: 970px;}
+
+  .nav__list {
+    display: flex;
+  }
+
+  .about__sl .swiper-button-arrow {
+    display: none;
+  }
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+  .container {max-width: 1200px;}
+  .container {padding: 0 40px;}
+  .row {margin-left: -20px;margin-right: -20px;}
+  .row [class*='col-'] {padding: 0 20px;}
+}
